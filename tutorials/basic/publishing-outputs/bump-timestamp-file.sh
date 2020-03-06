@@ -7,7 +7,7 @@ git clone resource-gist updated-gist
 
 cd updated-gist
 date > bumpme
-echo "some output\r\n" > bumpme
+echo "some output\r\n" >> bumpme
 
 git config --global user.email "nobody@concourse-ci.org"
 git config --global user.name "Concourse"
